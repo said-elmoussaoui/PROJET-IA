@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+        <meta charset="UTF-8"/>
+		<title>Test De Covid 19</title>
+        <link href="css/style.css" rel="stylesheet"/> 
+        <link rel="icon" type="images/png" href="images/test.png" />
+	</head>
+	<body>
+        <div class="contenu">
+            <div>
+                <h1>Veuillez importer une image radiographique</h1>
+                <div class="head">
+                    <div class="parent-div">
+                        <button class="btn-upload">Choisir le fichier</button>
+                        <input type="file" name="upfile" id="image-tester" />
+                    </div>
+                    <button id="preBtn">Tester</button>
+                </div>
+                <p>PRÉDICTION : 
+                    <span id="res">0</span>
+                </p>
+                <p>PROBABILITÉ : 
+                    <span id="prob">0</span>
+                </p>
+                <img id="image-choix" width="400" src=""/>
+            </div>
+        </div>
+	</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+</html>
